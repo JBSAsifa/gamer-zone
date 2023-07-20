@@ -267,7 +267,7 @@ body {
 }
 
 .section-4 {
-    height: 405px;
+    height: 500px;
     width: 100%;
     display: flex;
     background-color: rgb(255, 66, 165, 1);
@@ -275,7 +275,7 @@ body {
 }
 
 .sec4-text {
-    margin: 70px 0 0 60px;
+    margin: 90px 0 0 60px;
     height: 360px;
     width: 50%;
 }
