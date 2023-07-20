@@ -326,3 +326,56 @@ body {
 .sec4-pic img{
    width:100%;
 }
+.footer{
+    border: 2px solid black ;
+    height:400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+}
+.logo-container2 {
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    gap: 15px;
+    margin:0 0 0 600px;
+    width: 50%;
+
+}
+.logo-container2 p {
+    font-size: 45px;
+    font-weight: 800;
+    /* border:2px solid green; */
+    color:white;
+}
+.menu-container a{
+   text-decoration: none;
+   color: white;
+}
+.menu-container{
+    justify-content: center;
+    gap: 40px; 
+    display: flex;
+    align-items: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 30px;
+}
+.terms a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.footer-p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+}
