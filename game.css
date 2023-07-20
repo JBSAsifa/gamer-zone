@@ -1,4 +1,4 @@
-. {
+* {
     box-sizing: border-box;
 }
 
@@ -71,14 +71,16 @@ body {
     background-image: url(images/Group\ 14.png);
     background-size: 100%;
     width: 50%;
-    
+
 }
-.section-des{
-    width:50%;
+
+.section-des {
+    width: 50%;
     margin: 60px auto;
     text-align: left;
 
 }
+
 #G {
     margin: 0;
     font-size: 50px;
@@ -86,9 +88,10 @@ body {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
+    -webkit-text-fill-color: transparent;
 }
-.icon{
+
+.icon {
     display: flex;
     align-items: center;
     font-size: 15px;
@@ -103,10 +106,223 @@ body {
     width: 100%;
     height: 100%;
 }
-.section-btn{
+
+.section-btn {
     padding: 10px;
     text-align: center;
     border-radius: 15px;
     border: none;
-    margin-left:5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.sec-game {
+    height: 400px;
+    width: 100%;
+    border: 1px solid white;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+
+}
+
+.section-2 {
+    /* border: 1px solid #8758F1; */
+    display: flex;
+    height: 300px;
+    width: 900px;
+    margin: 50px auto;
+}
+
+.sec2-pic {
+    width: 50%;
+
+}
+
+.sec2-pic img {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+.sec2-text {
+    width: 50%;
+
+}
+
+.section2-des {
+    /* border: 2px solid red; */
+    text-align: right;
+}
+
+.sec2-title {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sec2-p {
+    font-size: 15px;
+    color: #534C64;
+    line-height: 30px;
+}
+
+.sec2-text button {
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(255, 66, 165, 1);
+    color: white;
+}
+
+.sec2-text span {
+    color: #534C64;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.online-game {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.videos {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.pic {
+    width: 200px;
+    height: 250px;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.section-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+
+.sec-no-download {
+    height: 500px;
+    width: 100%;
+}
+
+.section-3 {
+    height: 400px;
+    width: 900px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.sec3-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #f158ee 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sec3-text {
+    width: 50%;
+    text-align: right;
+    padding: 50px;
+}
+
+.horse img {
+    width: 300px;
+    position: relative;
+    left: 150px;
+}
+
+.angel img {
+    width: 200px;
+    position: relative;
+    top: -145px;
+}
+
+.section-4 {
+    height: 405px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 66, 165, 1);
+    color: white;
+}
+
+.sec4-text {
+    margin: 70px 0 0 60px;
+    height: 360px;
+    width: 50%;
+}
+
+.sec4-text h1 {
+    margin-bottom: 2px;
+}
+
+.sec4-text p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.text-container {
+    display: flex;
+}
+
+.text-1 {
+    width: 650px;
+    text-align: left;
+    height: 150px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.text-2 {
+    width: 400px;
+    height: 150px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: right;
+    margin-top: 10px;
+}
+.section-4 button{
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    color: rgb(255, 66, 165, 1);
+    background-color: white;
+}
+.sec4-pic{
+  width:50%;
+}
+.sec4-pic img{
+   width:100%;
 }
