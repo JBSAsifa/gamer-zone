@@ -191,12 +191,12 @@ body {
 }
 
 .videos {
-    height: 250px;
+    height: 300px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
+    font-size:10px; 
+    gap:30px;
+    text-align: center;
 }
-
 .pic {
     width: 200px;
     height: 250px;
@@ -347,8 +347,11 @@ body {
 .logo-container2 p {
     font-size: 45px;
     font-weight: 800;
-    /* border:2px solid green; */
     color:white;
+}
+.logo-container2{
+    justify-content: center;
+    margin: 0 auto;
 }
 .menu-container a{
    text-decoration: none;
@@ -393,7 +396,7 @@ body {
 }
 .button-container{
     height:300px;
-    background-color:rgb(249, 217, 247);
+    background-color:rgb(245, 239, 245);
 }
 .button-1{
     padding-top: 80px;
@@ -417,4 +420,21 @@ body {
     justify-content: center;
     gap:10px;
     display: flex;
+}
+.watch-now button{
+   position: relative;
+   top:-251px;
+   height: 247px;
+   width: 197px;
+   border-radius: 10px;
+   background-color: rgba(0, 0, 0, 0.488);
+   color:rgb(255, 66, 165, 1);
+   border: none;
+   visibility: hidden;
+}
+.watch-now{
+    height: 250px;
+}
+.watch-now:hover button{
+    visibility: visible;
 }
